@@ -59,7 +59,7 @@ if (guess < secretNumber) {
     break;
 }
     } else {
-System.out.println("Du kan bara gissa på heltal. Försök igen.");
+System.out.println("Du kan bara skriva ett tal med siffror. Försök igen.");
     scanner.nextLine();
 
    
