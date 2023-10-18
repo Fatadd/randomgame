@@ -1,6 +1,6 @@
 public class GuessingGame2 {
     public static void main(String[] args){
-    StartGame();
+    GuessingGame2 game = new GuessingGame2();
     }
 }
 
