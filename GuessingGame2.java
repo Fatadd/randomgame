@@ -1,4 +1,4 @@
-public class GuessingGame2 {
+public class main {
     public static void main(String[] args){
     GuessingGame2 game = new GuessingGame2();
     }
