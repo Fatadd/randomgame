@@ -1,4 +1,7 @@
 public class GuessingGame2 {
-    GuessingGame game = new GuessingGame();
+    public static void main(String[] args){
+    StartGame();
+    }
+}
 
 }
