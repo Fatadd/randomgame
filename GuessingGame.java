@@ -5,13 +5,14 @@ import java.util.Scanner;
 public class GuessingGame {
 
 
-    public static void main(String[] args) { 
+    public void startGame() {
         // Här börjar koden.
        
         
 
 Scanner scanner = new Scanner(System.in);
 // kopplar svanner till inmatningstsrömmen
+        Scanner(System.in);
 Random random = new Random ();
 // skapar ett objekt så den kan generra slumpmässiga tal.
 
@@ -72,6 +73,8 @@ playAgain = scanner.nextLine().toLowerCase();
 
 } while (playAgain.equals("ja"));
 System.out.println("Tack för att du har spelat");
+
+        Scanner.close();
 
 }
 
